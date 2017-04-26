@@ -2,7 +2,7 @@ import std.exception;
 import std.regex;
 import std.stdio;
 
-void main(string args[])
+void main()
 {
 	File af;
 	af.popen("acpi");
